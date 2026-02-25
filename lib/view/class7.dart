@@ -20,23 +20,24 @@ class Class7Page extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Center(child: Text("Fonts")),
-          Center(child: Text("Ewert This is my new font"
-          , 
-          style: TextStyle(
-            fontFamily: "Ewert"
+          Center(
+            child: Text(
+              "Ewert This is my new font",
+              style: TextStyle(fontFamily: "Ewert"),
+            ),
           ),
-          )),
-          Center(child: Text("This is my Micro5 font ", 
-          style: TextStyle(
-            fontFamily: "Micro5"
+          Center(
+            child: Text(
+              "This is my Micro5 font ",
+              style: TextStyle(fontFamily: "Micro5"),
+            ),
           ),
-          )),
 
           Container(
             width: MediaQuery.of(context).size.width * 0.5,
             height: 100,
             color: Colors.amber,
-          )
+          ),
         ],
       ),
       floatingActionButton: FloatingActionButton(

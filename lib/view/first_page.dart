@@ -126,7 +126,9 @@ with only two possible values could really ''',
               children: [
                 Container(height: 20, width: 20, color: Colors.blue),
                 // Spacer(),
-                Expanded(child: Container(height: 20, width: 20, color: Colors.green)),
+                Expanded(
+                  child: Container(height: 20, width: 20, color: Colors.green),
+                ),
                 Container(height: 20, width: 20, color: Colors.yellow),
               ],
             ),
@@ -139,15 +141,9 @@ with only two possible values could really ''',
               Icon(Icons.send),
             ],
           ),
-          Icon(Icons.local_activity,
-          color: Colors.green,
-          size: 60,
-
-          ),
+          Icon(Icons.local_activity, color: Colors.green, size: 60),
           SizedBox(height: 50),
         ],
-
-        
       ),
     );
   }
