@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:insta/view/class7.dart';
+import 'package:insta/view/class_buttons.dart';
+import 'package:insta/view/working_hour.dart';
+import 'package:insta/view/third_page.dart';
 
 
 
@@ -38,7 +41,10 @@ class MyApp extends StatelessWidget {
       // home: FirstPage(),
       //home: MediaPage(),
       // home: secondPage(),
-      home: Class7Page(),
+      //home: Class7Page(),
+      // home: ButtonsPage(),
+      //home: ThirdPage(),
+      //home: practice(),
     );
   }
 }
